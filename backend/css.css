@@ -1,0 +1,120 @@
+.slideout-sidebar {
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  left: -300px;
+  width: 300px;
+  padding: 20px;
+  background: #fff;
+  z-index: 99999;
+  transition: all 0.3s ease-in-out;
+}
+
+.slideout-sidebar.open {
+  left: 0;
+}
+
+.slideout-sidebar .slideout-close {
+  position: absolute;
+  top: 20px;
+  left: 20px;
+  font-size: 24px;
+  cursor: pointer;
+}
+
+.slideout-sidebar-content {
+  margin-top: 40px;
+}
+
+.sidebar-hr {
+  border-top: 1px solid #eee;
+  margin-top: 15px;
+  margin-bottom: 15px;
+}
+
+.sidebar-manage-products-label {
+  margin-top: 0;
+  margin-bottom: 5px;
+}
+
+.sidebar-sections,
+.sidebar-manage-products {
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+/* Styles for slideout sidebar button */
+.slideout-sidebar .btn-primary {
+  background: #3498db;
+  color: #fff;
+  border: none;
+  border-radius: 0;
+  padding: 10px 15px;
+  margin-bottom: 15px;
+  cursor: pointer;
+  width: 100%;
+  text-align: left;
+}
+
+#menu-toggle {
+  border: none;
+  background: transparent;
+  color: #4079B6FF;
+}
+
+.slideout-sidebar .btn-primary:hover {
+  background: #2980b9;
+}
+
+.slideout-sidebar .btn-block {
+  display: block;
+}
+
+/* Styles for dropdown menu */
+.slideout-sidebar .dropdown-toggle::after {
+  display: none;
+}
+
+.slideout-sidebar .dropdown {
+  position: relative;
+}
+
+.slideout-sidebar .dropdown-toggle {
+  width: 100%;
+  text-align: left;
+}
+
+.slideout-sidebar .dropdown-menu {
+  position: absolute;
+  left: 0;
+  left: auto;
+  top: 100%;
+  margin-top: 0;
+  border: none;
+  box-shadow: none;
+  border-radius: 0;
+  background-color: #fff;
+  border: 1px solid #ccc;
+}
+
+.slideout-sidebar .dropdown-menu a {
+  color: #333;
+  text-decoration: none;
+  display: block;
+  padding: 10px 15px;
+}
+
+.slideout-sidebar .dropdown-menu a:hover {
+  background: #f2f2f2;
+}
+
+@media only screen and (max-width: 768px) {
+  /* Hide the slideout sidebar on small screens */
+  .slideout-sidebar {
+      display: none;
+  }
+}
+
+#se-navbar {
+  margin-left: 300px;
+}

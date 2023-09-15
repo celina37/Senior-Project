@@ -1,0 +1,89 @@
+body{
+  
+background: rgba(185, 200, 219, 0.15);
+
+/* Chrome 10-25, Safari 5.1-6 */
+background: -webkit-linear-gradient(to top left, rgba(185, 200, 219, 0.15), rgba(246, 243, 255, 1));
+
+/* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+background: linear-gradient(to top left, rgba(185, 200, 219, 0.15), rgba(246, 243, 255, 1))
+}
+
+#first-navbar i.bi {
+    color: rgb(92, 118, 141);
+    font-size: 2rem;
+    padding-top:2px;
+  }
+  
+  #first-navbar i.bi:hover {
+    color: rgb(130, 155, 177);
+}
+
+  #second-navbar {
+    letter-spacing: 3px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-transform: uppercase;
+    font-size: 17px;
+}
+  
+  #second-navbar-ul {
+    display: flex;
+    justify-content: center;
+  }
+  
+  #second-navbar-ul li a {
+    color: rgb(36, 48, 57); 
+      padding: 10px;
+
+  }
+  #second-navbar-ul li a:hover {
+    color: rgb(92, 118, 141);
+
+  }
+  #second-navbar .nav-link {
+    margin-right: 15px;
+  }
+  nav {
+    /* Remove the fixed position and full width */
+    height: 80px; /* adjust this value as needed */
+    z-index: 9999; /* make sure it's on top of other elements */
+  }
+  /* CSS */
+
+@media (max-width: 768px) {
+  .collapse.navbar-collapse {
+    display: none;
+  }
+  .navbar-toggler {
+    display: block;
+  }
+}
+  
+  .navbar-content {
+    /* Position the navbar content instead of the nav element */
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+    max-width: 1200px; /* adjust this value as needed */
+  }
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
